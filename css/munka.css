@@ -1,0 +1,40 @@
+section h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    font-family: "Ink Free", "Didot", sans-serif;
+}
+section .munkaim img{
+    
+    box-shadow: 5px 7px 25px 9px rgba(0,0,0,0.4);
+    border-radius: 300px;
+    object-fit: cover;
+    width:230px;
+    height:230px;
+
+}
+section article,aside{
+    align-items: center;
+    text-align: center;
+}
+.munkaim{   
+    padding-top: 100px;
+    display: flex;
+    justify-content:space-around;
+    align-items:flex-end;
+}
+
+aside h1{
+    color: rgb(179, 149, 134);
+}
+#java {
+    height: auto;
+    padding-bottom: 20px;
+}
+
+#java h1{
+    font-size: 30px;
+}
+#java article{
+    padding-bottom: 50px;
+}

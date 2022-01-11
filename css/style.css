@@ -1,0 +1,147 @@
+*{
+        margin: 0px;
+}
+:root{
+        --middle-clolor-bc:rgb(85, 117, 59);
+        --side-color-bc: rgb(28, 46, 28);
+}
+body{
+        background-size: contain;
+        background: linear-gradient(to left, rgb(179, 149, 134) 50%, rgb(236, 236, 236)50%);
+        
+}
+main{
+        text-align: justify;
+        letter-spacing: 2px;
+        margin: auto;
+}
+header{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        font-family: 'Prompt', sans-serif;
+        background-color:rgb(231, 223, 214 );
+        color: rgb(83, 66, 66);
+}
+header div img{
+        width: 50px;
+        border-radius: 50px;
+        float: left;
+        padding: 10px;
+        margin-right: 20px;
+}
+h3{
+        font-size: 10px;
+        color: rgb(0, 0, 0);
+}
+
+nav{
+        grid-area: n;
+        grid-row-start: 1;
+        grid-column-start: 2;
+        grid-column-end: 2;
+        
+
+}
+nav ul{
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        color: rgb(83, 66, 66);
+        
+}
+header li,p{
+        padding-top: 22px;
+        
+}
+header div p{
+        
+        font-size: 20px;
+}
+nav ul li a{
+        color: rgb(158, 158, 158);
+        text-decoration:none;
+        font-size: 20px;
+        padding: 7px;   
+        border-top: 1px solid rgb(158, 158, 158);
+
+}
+nav ul li{
+        list-style: none;
+
+}
+nav ul li a:hover{
+        border-top: 2px solid rgb(105, 102, 102);
+        color: rgb(104, 85, 85);
+}
+
+section{
+        max-width: 1000px;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        background: linear-gradient(to left, rgb(179, 149, 134)  50%, rgb(255, 255, 255)50%);
+        box-shadow: 5px 7px 25px 9px rgba(0,0,0,0.2);
+        height: 600px;
+        color: black;
+}
+section .tartalomRolam img{
+        width: 100%;
+        margin-bottom: 50px;
+        box-shadow: 5px 7px 25px 9px rgba(0,0,0,0.4);
+        border-radius: 150px;
+
+}
+section header h1{
+        text-align: center;
+        font-size: 3rem;
+}
+
+.tartalomRolam,.contactoldal{
+        padding-top: 100px;
+        display: flex;
+        justify-content:space-around;
+        align-items:flex-end;
+}
+section h1{
+        color: rgb(255, 241, 219);
+}
+
+section article h3{
+        font-family: sans-serif;
+}
+article,aside{
+        width: 300px;
+        color: rgb(78, 64, 64);
+        border-radius: 3px;
+        font-family: "Ink Free", "Didot", sans-serif;
+        
+}
+footer {
+        display: flex;
+        clear: both;
+        background-color: rgb(36, 33, 33);
+        position: relative;
+        height: 50px;
+        margin-top: 200px;
+        color: white;
+        justify-content:center;
+
+        align-items: center;
+}
+.contactoldal form{
+        font-family: Arial, Helvetica, sans-serif;
+}
+.tartalomRolam article span{
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+}
+.contactoldal aside h1{
+        color: rgb(61, 61, 153);
+        
+}
+.contactoldal article input{
+        float: left;
+}
+.contactoldal article label{
+        float: left;
+}
